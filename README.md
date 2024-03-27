@@ -84,10 +84,10 @@ The script then inserts the fetched weather data into this table.
 
 - **Explanation of the cron syntax:**
 - The first five fields represent (minute, hour, day of month, month, day of week)
-- \'*' in a field means "every"
-- redirects standard output and standard error to a log file (weather_data.log in this example)
+- \* in a field means "every"
+- \>> redirects standard output and standard error to a log file (weather\_data.log in this example)
 - 2>&1 combines standard output and standard error
-
+  
 **Save and Close Crontab:**
 
 - Save the crontab file (usually by pressing Ctrl+O and then Enter).
